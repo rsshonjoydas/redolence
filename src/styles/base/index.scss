@@ -1,0 +1,30 @@
+html {
+  scrollbar-width: normal;
+  scrollbar-color: #777 #555;
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-500 dark:bg-gray-400;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600 dark:bg-gray-500 transition-all;
+}
+
+html::-webkit-scrollbar-track {
+  @apply bg-gray-400 dark:bg-gray-300;
+}
+
+html::-webkit-scrollbar-track:hover {
+  @apply bg-gray-300 dark:bg-gray-500 transition duration-500;
+}
+
+// ::selection {
+//   background: theme('colors.secondary.DEFAULT');
+//   color: #fff;
+// }
