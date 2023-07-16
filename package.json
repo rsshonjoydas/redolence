@@ -2,6 +2,11 @@
   "name": "next-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "Prefer Yarn for streamlined dependency management."
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
